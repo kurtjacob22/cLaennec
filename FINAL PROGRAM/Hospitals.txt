@@ -1,0 +1,214 @@
+                    hospitals:
+
+                    Console.Clear();
+                    Console.Write("\n Please Enter your City: ");
+                    city = Console.ReadLine();
+                    city = city.ToLower();
+                    Console.Clear();
+
+                    if (city == "manila")
+                    {
+                        Console.Clear();
+
+                        Console.Write(" \t\n Manila Hospitals \n ");
+
+                        Console.Write(" \n Manila Doctors \n Address: 667 United Nations Ave, Ermita, Manila, 1000 Metro Manila \n Phone: (02) 558 0888 \n");
+                        Console.Write("\n Ospital ng Maynila Medical Center \n Address: 719, President Quirino Avenue, Roxas, Boulevard, Malate, Manila, Metro Manila, 1004 Metro Manila \n Phone: (02) 524 6061 \n");
+                        Console.Write("\n ManilaMed Medical Center Manila \n Address: 850 United Nations Ave, Ermita, Manila, Metro Manila \n Phone: (02) 523 8131 \n");
+                        Console.Write("\n Philippine General Hospital \n Address: Taft Ave, Ermita, Manila, 1000 Metro Manila \n Phone: (02) 554 8400 \n");
+                        Console.Write("\n Dr. Jose Fabella Memorial Hospital \n Address: 1003 Lope de Vega St, Santa Cruz, Manila, 1003 Metro Manila \n Phone: (02) 733 8537 \n");
+                        Console.Write("\n Adventist Medical Center Manila \n Address: 1975 Corner Donada and San Juan Street, Pasay, 1300 Metro Manila \n Phone: (02) 525 9191 \n");
+                        Console.Write("\n Metropolitan Medical center \n Address: 1357 Masangkay St, Santa Cruz, Manila, 1012 Metro Manila \n Phone: (02) 863 2500 \n");
+                        Console.Write("\n Mary chiles General Hospital \n Address: 667 Dalupan St, Sampaloc, Manila, 1008 Metro Manila \n Phone: (02) 735 5352 \n");
+                        Console.Write("\n Capitol Medical center \n Address: Cor.Scout, Quezon Avenue, Sct.Magbanua, Diliman, Quezon City, 1103 Metro Manila \n Phone: (02) 372 3825 \n");
+                        Console.Write("\n Justice Jose Abad Santos Mother and Child Maternity Hospital \n Address: Numancia St, San Nicolas, Manila, 1006 Metro Manila \n Phone: 0947 437 7705 \n");
+                        Console.Write("\n San lazaro Hospital \n Address: Quiricada St, Santa Cruz, Manila, Metro Manila \n Phone: (02) 732 3777 \n");
+                        Console.Write("\n Mary Johnston Hospital \n Address: 1221 J Nolasco, Tondo, Maynila, 1012 Kalakhang Maynila \n Phone: (02) 245 4021 \n");
+                        Console.Write("\n Gat Andres Bonifacio Memorial Medical center \n Address: Manila, 924 Delpan St, Tondo, Maynila, 1012 Kalakhang Maynila \n Phone: (02) 243 8845 \n");
+                        Console.Write("\n Hospital of the Infant Jesus \n Address: 1556 Laong Laan Rd, Sampaloc, Manila, 1008 Metro Manila \n Phone: (02) 731 2771 \n");
+                    }
+
+                    else if (city == "quezon city")
+                    {
+                        Console.Clear();
+
+                        Console.Write(" \t\n Quezon City Hospitals \n ");
+
+                        Console.Write("\n Quezon City General Hospital \n Address: Seminary Rd, Project 8, Quezon City, Metro Manila \n Phone: (02) 863 0800 \n");
+                        Console.Write("\n Providence Hospital \n Address: 1515 Quezon Ave, Diliman, Quezon City, Metro Manila \n Phone: (02) 558 6999 \n");
+                        Console.Write("\n East Avenue Medical Center \n Address: East Ave, Diliman, Quezon City, 1100 Metro Manila \n Phone: (02) 928 0611 \n");
+                        Console.Write("\n Capitol Medical center \n Address: Cor.Scout, Quezon Avenue, Sct.Magbanua, Diliman, Quezon City, 1103 Metro Manila \n Phone: (02) 372 3825 \n");
+                        Console.Write("\n UERM Memorial Hospital \n Address: 64 Aurora Blvd, Doña Imelda, Quezon City, Metro Manila \n Phone: (02) 715 0861 \n");
+                        Console.Write("\n Dr.Jesus C. Delgado Memorial Hospital \n Address: 7 Kamuning Rd, Diliman, Quezon City, 1103 Metro Manila \n Phone: (02) 924 4051 \n");
+                        Console.Write("\n Philippine Children's Medical Center \n Address: Quezon Avenue, corner Agham Rd, Diliman, Quezon City, 1101 Metro Manila \n Phone: (02) 588 9900 \n");
+                        Console.Write("\n National Children's Hospital \n Address: 264 E Rodriguez Sr.Ave, New Manila, Quezon City, 1113 Metro Manila \n Phone: (02) 724 0656 \n");
+                        Console.Write("\n Sta. Teresita General Hospital and Eye Center \n Address: Santa Mesa Heights, Quezon City, 1114 Metro Manila \n Phone: N / A \n");
+                        Console.Write("\n World Citi Medical Center \n Address: 960 Aurora Blvd, Project 4, Quezon City, 1109 Metro Manila \n Phone: (02) 913 8380 \n");
+                        Console.Write("\n Fe Del Mundo Medical center \n Address: 11 Banawe St, Quezon City, 1113 Metro Manila \n Phone: (02) 712 0845 \n");
+                        Console.Write("\n Philippine Heart Center Hospital \n Address: East Ave, Diliman, Quezon City, Metro Manila \n Phone: (02) 925 2401 \n");
+                        Console.Write("\n Pascual General Hospital \n Address: 130 Quirino Hwy, Quezon City, 1106 Metro Manila \n Phone: 0905 312 7144 \n");
+                        Console.Write("\n New Era General Hospital \n Address: Commonwealth Ave, New Era, Quezon City, Metro Manila \n Phone: (02) 932 7387 \n");
+                        Console.Write("\n National Kidney and Transplant Institute \n Address: East Ave, Diliman, Quezon City, 1101 Metro Manila \n Phone: (02) 981 0300 \n");
+                        Console.Write("\n Quirino Memorial Medical Center \n Address: JP Rizal Street, Project 4, Quezon City, 1109 Metro Manila \n Phone: (02) 421 2250 \n");
+                        Console.Write("\n Veterans Memorial Medical Center \n Address: North Ave, Diliman, Quezon City, Metro Manila \n Phone: (02) 927 6426 \n");
+                        Console.Write("\n Novaliches General Hospital \n Address: 793 Quirino Hwy, Novaliches, Quezon City, Metro Manila \n Phone: (02) 938 7890 \n");
+                    }
+
+                    else if (city == "makati")
+                    {
+                        Console.Clear();
+
+                        Console.Write(" \t\n Makati Hospitals \n ");
+
+                        Console.Write("\n St. Clare’s Medical Center \n Address: 1838 Dian St, Makati, 1235 Metro Manila \n Phone: (02) 831 6511 \n");
+                        Console.Write("\n Ospital ng Makati \n Address: Sampaguita St, Makati, 1218 Metro Manila \n Phone: (02) 882 6316 \n");
+                        Console.Write("\n Healthkard Hospital \n Address: 104, Ormanza Street, Legaspi Village, Makati, 1200 Metro Manila \n Phone: (02) 810 5221 \n");
+                        Console.Write("\n Centuria Medical Makati \n Address: Century City Gen.Luna St, cor Salamanca, St.Brgy, Makati, Metro Manila \n Phone: (02) 793 8606 \n");
+                        Console.Write("\n Makati Medical Center \n Address: 2 Amorsolo Street, Legazpi Village, Makati, 1229 Kalakhang Maynila \n Phone: (02) 888 8999 \n");
+                        Console.Write("\n PhilhealthCare Incorporated \n Address: 6764 4th and 5th floor, STI Holdings Center Ayala Avenue, Legazpi Village, Makati, 1226 Metro Manila \n Phone: (02) 802 7333 \n");
+                        Console.Write("\n Accredited OFW Medical Clinics & Hospital \n Address: Atlas Compound, Naga Rd, Las Pinas, 1742 Metro Manila \n Phone: (02) 872 4827 \n");
+                        Console.Write("\n Saint Claire's Hospital and Nursery \nAddress: 1838, Dian Corner Rockefeller Streets, Makati, 1200 Metro Manila \n Phone: (02) 831 6511 \n");
+                    }
+
+                    else if (city == "pasay")
+                    {
+                        Console.Clear();
+
+                        Console.Write(" \t\n Pasay Hospitals \n ");
+
+                        Console.Write("\n Pasay City General Hospital \n Address: P.Burgos St., Pasay, Metro Manila \n Phone: (02) 833 6022 \n");
+                        Console.Write("\n San Juan de Dios Educational Foundation Inc. - Hospital \n Address: 2772 Roxas Blvd, Pasay, 1300 Metro Manila \n Phone: (02) 831 9731 \n");
+                        Console.Write("\n Adventist Medical Center Manila \n Address: 1975 Corner Donada and San Juan Street, Pasay, 1300 Metro Manila \n Phone: (02) 525 9191 \n");
+                        Console.Write("\n Air Force General Hospital \n Address: Pasay, Metro Manila \n Phone: N/A \n");
+                    }
+
+                    else if (city == "taguig")
+                    {
+                        Console.Clear();
+
+                        Console.Write(" \t\n Taguig Hospitals \n ");
+
+                        Console.Write("\n Taguig Doctors Hospital \n Address: 39 Dir.A.Bunye, Taguig, Kalakhang Maynila \n Phone: (02) 837 0178 \n");
+                        Console.Write("\n Medical Center Taguig, Inc. \n Address: Levi B.Mariano Ave, Taguig, 1630 Metro Manila \n Phone: (02) 888 6284 \n");
+                        Console.Write("\n Taguig District Hospital \n Address: E Service Rd, Taguig - Pateros, Taguig, 1630 Metro Manila \n Phone: (02) 837 8132 \n ");
+                        Console.Write("\n Dr. Sabili General Hospital \n Address: Number 313, General Santos Avenue, Lower Bicutan, Taguig, Metro Manila \n Phone: 0905 404 8348 \n");
+                        Console.Write("\n Army General Hospital \n Address: MGEN M Castaneda St, Taguig, 1630 Metro Manila \n Phone: (02) 845 9555 \n");
+                        Console.Write("\n Cruz-Rabe Maternity & General Hospital \n Address: 57 Gen.A Luna St, Taguig, 1634 Metro Manila \nPhone: (02) 642 3433 \n");
+                        Console.Write("\n Philippine Navy, Manila Naval Hospital \n Address: Taguig, Metro Manila \n Phone: N /A \n");
+                        Console.Write("\n Recuenco General Hospital \n Address: 68 Sampaloc Ext, Taguig, 1630 Metro Manila \n Phone: (02) 808 5950 \n");
+                        Console.Write("\n Holy Mary Family Hospital \n Address: 34, Manuel L.Quezon Street, Bagumbayan, Metro Manila, Taguig, 1630 \n Phone: (02) 837 0246 \n");
+                        Console.Write("\n Saint Luke's Medical Center \n Address: Rizal Drive cor. 32nd St and, 5th Ave, Taguig, 1634 Kalakhang Maynila \n Phone: (02) 789 7700 \n");
+                    }
+
+                    else if (city == "pasig")
+                    {
+                        Console.Clear();
+
+                        Console.Write(" \t\n Pasig Hospitals \n ");
+
+                        Console.Write("\n Rizal Medical Center \n Address: Pasig Blvd, Pasig, 1600 Metro Manila \n Phone: (02) 865 8400 \n");
+                        Console.Write("\n Sabater Hospital \n Address: Caruncho Ave, Pasig, Metro Manila \n Phone: (02) 641 8194 \n");
+                        Console.Write("\n Tricity Medical Center \n Address: 269 C.Raymundo Ave, Pasig, 1607 Metro Manila \n Phone: (02) 275 9752 \n");
+                        Console.Write("\n MCPC St. Therese of Lisieux Doctors Hospital \n Address: C.Raymundo Ave, Pasig, 1600 Metro Manila \n Phone: (02) 546 2833 \n");
+                        Console.Write("\n Pasig City General Hospital \n Address: M Eusebio, Pasig, Metro Manila \n Phone: (02) 643 3333 \n");
+                        Console.Write("\n Alfonso Specialist Hospital \n Address: 185 Dr.Sixto Antonio Avenue, Pasig, 1609 Metro Manila \n Phone: 571 - 1285 \n");
+                        Console.Write("\n Pasig City Children's Hospital \n Address: 15 A Industria, Pasig, 1600 Metro Manila \n Phone: 0916 869 2901 \n");
+                        Console.Write("\n Mission Hospital \n Address: 17 km Ortigas Ave, Pasig, 1800 Metro Manila \n Phone: (02) 655 0162 \n");
+                        Console.Write("\n Pasig Doctors Medical Center \n Address: 254 Eulogio Amang Rodriguez Ave, Pasig, Metro Manila \n Phone: (02) 878 7362 \n");
+                        Console.Write("\n The Medical City Hospital \n Address: Ortigas Ave, Pasig, Metro Manila \n Phone: (02) 988 1000 \n");
+                        Console.Write("\n Florence Nightingale Medical Hospital \n Address: Old Capitol Compound, Shaw Blvd, Kapitolyo, Pasig, 1610 Metro Manila \n Phone: 0923 516 8769 \n");
+                        Console.Write("\n Salve Regina General Hospital, Inc. \n Address: Marikina - Infanta Hwy, Pasig, 1800 Metro Manila \n Phone: (02) 477 4832 \n");
+                    }
+
+                    else if (city == "mandaluyong")
+                    {
+                        Console.Clear();
+
+                        Console.Write(" \t\n Mandaluyong Hospitals \n ");
+
+                        Console.Write("\n Mandaluyong City Medical Center \n Address: 605 Boni Ave, Mandaluyong, 1550 Metro Manila \n Phone: 0919 781 7760 \n");
+                        Console.Write("\n Unciano General Hospital \n Address: Boni Avenue Corner Dansalan Street, Mandaluyong, 1550 Metro Manila \n Phone: (02) 533 6565 \n");
+                        Console.Write("\n St.Michaels Medical center \n Address: 497 F Mariano Avenue Manggahan, Pasig, 1611 Metro Manila \n Phone: (02) 681 7158 \n");
+                        Console.Write("\n St. Patrick's Healthcare System \n Address: 566 Shaw Blvd, Mandaluyong, 1550 Metro Manila \n Phone: (02) 533 9329 \n");
+                        Console.Write("\n VRP Medical Center \n Address: Edsa, 163 Sierra Madre, Mandaluyong, 1501 Metro Manila \n Phone: (02) 464 9999 \n");
+                        Console.Write("\n Our Lady of Lourdes Hospital \n Address: 46 P.Sanchez St, Santa Mesa, Manila, Metro Manila \n Phone: (02) 716 8001 \n");
+                    }
+
+                    else if (city == "marikina")
+                    {
+                        Console.Clear();
+
+                        Console.Write(" \t\n Marikina Hospitals \n ");
+
+                        Console.Write("\n Marikina Valley Medical Center \n Address: Sumulong Hwy, Marikina, 1800 Metro Manila \n Phone: (02) 682 2222 \n");
+                        Console.Write("\n Amang Rodriguez Memorial Medical Center \n Address: Sumulong Highway Sto.Nino, Marikina, 1800 Metro Manila \n Phone: (02) 941 5854 \n");
+                        Console.Write("\n Marikina Doctors Hospital and Medical Center, Inc. \n Address: 10 Evangelista Ave, Pasig, 1800 Metro Manila \n Phone: 0949 801 4867 \n");
+                        Console.Write("\n St. Victoria Hospital \n Address: 444 JP Rizal, Sto Nino, Marikina, 1800 Metro Manila \n Phone: (02) 942 2022 \n");
+                        Console.Write("\n Sta. Monica Hospital \n Address: 138 A A.Bonifacio Ave, Marikina, 1800 Metro Manila \n Phone: N/A \n");
+                        Console.Write("\n Garcia General Hospital \n Address: 49 Bayan - Bayanan Ave, Marikina, 1810 Metro Manila \n Phone: (02) 941 5511 \n");
+                        Console.Write("\n St. Anthony Medical Center \n Address: 32 Santa Ana Ext., Marikina, 1801 Metro Manila \n Phone: (02) 682 2000 \n");
+                        Console.Write("\n SDS Medical Center \n Address: 61 Katipunan St, Marikina, 1800 Metro Manila \n Phone: (02) 933 1405 \n");
+                        Console.Write("\n San Ramon Hospital \n Address: 108 Gen.Ordoñez Ave, Marikina, 1811 Metro Manila \n Phone: (02) 941 8632  \n");
+                        Console.Write("\n Immaculate Conception Hospital \n Address: 195 Katipunan St, Marikina, 1800 Metro Manila \n Phone: (02) 941 9362 \n");
+                    }
+
+                    else if (city == "las pinas" || city == "las piñas")
+                    {
+                        Console.Clear();
+
+                        Console.Write(" \t\n Las Piñas Hospitals \n ");
+
+                        Console.Write("\n Las Piñas Doctors Hospital \n Address: 1742 CAA Rd, Las Pinas, 1742 Metro Manila \n Phone: (02) 825 5236 \n");
+                        Console.Write("\n Las Piñas General Hospital and Satellite Trauma Center \n Address: Diego Cera Ave, Bernabe Compound, Pulanglupa I, Las Piñas City Metro, Manila, Las Pinas, Metro Manila \n Phone: (02) 873 0557 \n");
+                        Console.Write("\n Las Piñas City Medical Center \n Address: 1314 Marcos Alvarez Ave, Las Pinas, 1747 Metro Manila \n Phone: (02) 806 2288 \n");
+                        Console.Write("\n Perpetual Help Medical Center \n Address: Alabang–Zapote Road, Las Pinas, 1740 Metro Manila \n Phone: (02) 874 8515 \n");
+                        Console.Write("\n A. Zarate General Hospital \n Address: 13 - 765 Atlas compond, Naga Rd, Las Pinas, 2011 Metro Manila \n Telephone Number: 874 - 6903 \n");
+                        Console.Write("\n Christ The King General Hospital \n Address: 130 Real Street, Las Pinas, 1740 Metro Manila \n Phone: (02) 873 1119 \n");
+                        Console.Write("\n Pamplona Hospital and Medical Center \n Address: 46 Alabang - Zapote Rd, Pamplona 1, Las Pinas, 1740 Metro Manila \n Phone: (02) 873 0054 \n");
+                        Console.Write("\n Dr. E. Zarate General Hospital \n Address: Las Pinas, Metro Manila \n Telephone Number: 871 - 1440 \n");
+                    }
+
+                    else if (city == "parañaque" || city == "paranaque")
+                    {
+                        Console.Clear();
+
+                        Console.Write(" \t\n Parañaque Hospitals \n ");
+
+                        Console.Write("\n Paranaque Doctor's Hospital \n Address: 175 Doña Soledad Ave Better Living Subdivision, Parañaque, 1711 Metro Manila \n Phone: (02) 776 0644 \n");
+                        Console.Write("\n Unihealth-Paranaque Hospital & Medical Center \n Address: Dr Arcadio Santos Ave, Parañaque, 1700 Metro Manila \n Phone: (02) 832 0636 \n");
+                        Console.Write("\n Medical Center Parañaque \n Address: Dr Arcadio Santos Ave, San Antonio, Parañaque, 1700 Metro Manila \n Phone: (02) 820 0290 \n");
+                        Console.Write("\n Protacio Hospital \n Address: 484 Quirino Ave, Baclaran, Parañaque, 1700 Metro Manila \n Phone: (02) 852 2953 \n");
+                        Console.Write("\n The Premier Medical Center \n Address: Business, Parañaque, 1715 Metro Manila \n Telephone Number: 552 - 1138 \n");
+                        Console.Write("\n Ospital ng Parañaque \n Address: Quirino Ave, Parañaque, 1700 Metro Manila \n Phone: (02) 825 4902 \n");
+                        Console.Write("\n Our Lady of Peace Hospital \n Address: Parañaque, Metro Manila \n Phone: (02) 829 5775 \n");
+                        Console.Write("\n Olivarez General Hospital \n Address: Dr Arcadio Santos Ave, Parañaque, 1700 Metro Manila \n Phone: (02) 826 7966 \n ");
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("\n " + city + " is not enlisted on our Hospital Database yet." + "\n\n Press 1 to try again, 2 return to menu");
+                        ExitOption = Convert.ToInt32(Console.ReadLine());
+
+                        if (ExitOption == 1)
+                        {
+                            goto hospitals;
+                        }
+
+                        else if (ExitOption == 2)
+                        {
+                            goto mainMenu;
+                        }
+                    }
+
+                    Console.Write("\n\n Press 1 to try again, 2 to return to menu \n" + " : ");
+                    ExitOption = Convert.ToInt32(Console.ReadLine());
+
+                    if (ExitOption == 1)
+                    {
+                        goto hospitals;
+                    }
+
+                    else if (ExitOption == 2)
+                    {
+                        goto mainMenu;
+                    }
